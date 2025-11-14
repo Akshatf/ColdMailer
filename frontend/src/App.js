@@ -2,7 +2,10 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API_BASE = 'http://localhost:5000/api';
+// For production
+const API_BASE = process.env.NODE_ENV === 'production' 
+  ? 'https://coldmailer-wy4n.onrender.com' 
+  : 'http://localhost:5000/api';
 
 function App() {
   const [inputType, setInputType] = useState('text');
