@@ -4,7 +4,7 @@ import './App.css';
 
 // For production
 const API_BASE = process.env.NODE_ENV === 'production' 
-  ? 'https://coldmailer-wy4n.onrender.com' 
+  ? 'https://coldmailer-wy4n.onrender.com/api' 
   : 'http://localhost:5000/api';
 
 function App() {
