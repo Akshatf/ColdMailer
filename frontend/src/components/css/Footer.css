@@ -1,0 +1,19 @@
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 4rem 2rem 3rem;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+  margin-top: 4rem;
+  background: rgba(15, 15, 35, 0.8);
+  backdrop-filter: blur(20px);
+}
+
+.footerMail {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footerMail:hover {
+  text-decoration: underline;
+}
